@@ -26,7 +26,6 @@ public class Spot extends ParkingLot {
 					largeSpot = bus;
 					ParkingLot.reduceLarge();
 				}else{
-					//System.out.println("Not enough spots left to park.");
 					ParkingLot.levels--;
 				}
 			}
